@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Meta setup -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="">
+		<meta name="decription" content="">
+		<meta name="designer" content="">
+		
+		<!-- Title -->
+		<title>Inspections</title>
+		
+		<!-- Fav Icon -->
+		<link rel="icon" href="images/favicon.ico" />	
+
+		<!-- font awesome icon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+		<!-- nice select -->
+		<link rel="stylesheet" href="css/nice-select.css">
+
+		<!-- Include Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		
+		<!-- Main StyleSheet -->
+		<link rel="stylesheet" href="style.css" />	
+		
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="css/responsive.css" />	
+		
+	</head>
+	<body class="deshboard-body">
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+		<!-- Main_Deshboard-area start -->	
+		<main class="deshboard-main-area">
+            <!-- deshboard side menu here -->
+            <div class="deshboard-side-menu">
+				<div class="deshboard-side-menu-top">
+					<div class="deshboard-side-menu-logo">
+						<a href="#">
+							<img src="images/logo.svg" alt="logo">
+						</a>
+					</div>
+					<ul class="deshboard-side-menu-item">
+						<li><a href="#"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+						<li><a href="#"><i class="fa-regular fa-credit-card"></i>Inspections</a></li>
+						<li><a class="active-ds-menu" href="#"><i class="fa-regular fa-credit-card"></i>Observations</a></li>
+						<li><a href="#"><i class="fa-regular fa-credit-card"></i>Inaccidents</a></li>	
+					</ul>
+				</div>
+				<div class="deshboard-side-menu-bottom">
+					<a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+				</div>
+            </div>
+            <!-- deshboard-main-right-side here -->
+            <div class="deshboard-main-right-side">  
+				<!-- right side header  -->
+				<div class="deshboard-main-right-side-header">
+					<i class="fa-solid fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+					<select class="deshboard-select">
+						<option value="1">First Refinery Project</option>
+						<option value="2">First Refinery Project</option>
+						<option value="3">First Refinery Project</option>
+					</select>
+				</div>
+				<!-- right side body -->
+				<div class="deshboard-main-right-side-body mr36px">
+					<div class="observation-report-table-area">
+						<div class="observation-report-table-header">
+							<h2>Inspections</h2>
+						</div>
+						<div class="observation-table observation-table2">
+							<table>
+								<tr>
+									<th>
+										Inspection/TItle 
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+											<path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5m-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5"></path>
+										</svg>
+									</th>
+									<th>
+										Date 
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+											<path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5m-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5"></path>
+										</svg>
+									</th>
+									<th>
+										Inspected By 
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+											<path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5m-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5"></path>
+										</svg>
+									</th>
+									<th class="activeth">
+										Status
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+											<path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5m-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5"></path>
+										</svg>
+									</th>
+									<th>Actions</th>
+								</tr>	
+								<tr>
+									<td>
+										<div class="observation-table-title">
+											<img src="images/icon14.svg" alt="icon">
+											<div>
+												<h3>Electric Inspection</h3>
+												<p>this week inspection</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-date">
+											<p>--------</p>	
+											<p>------</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-insBy">
+											<p>------</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action audit-pending">
+											<button>Pending</button>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action">
+											<button>Details</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="observation-table-title">
+											<img src="images/icon13.svg" alt="icon">
+											<div>
+												<h3>Enviroment </h3>
+												<p>this week inspection</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-date">
+											<p>DEC 10, 2022</p>
+											<span>At 08.00 PM</span>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-insBy">
+											<p>Ali Khalid</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action audit-done">
+											<button>Done</button>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action">
+											<button>Details</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="observation-table-title">
+											<img src="images/icon15.svg" alt="icon">
+											<div>
+												<h3>Health Inspection </h3>
+												<p>this week inspection</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-date">
+											<p>DEC 10, 2022</p>
+											<span>At 08.00 PM</span>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-insBy">
+											<p>Ali Khalid</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action audit-done">
+											<button>Done</button>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action">
+											<button>Details</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="observation-table-title">
+											<img src="images/icon15.svg" alt="icon">
+											<div>
+												<h3>Health Inspection </h3>
+												<p>this week inspection</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-date">
+											<p>DEC 10, 2022</p>
+											<span>At 08.00 PM</span>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-insBy">
+											<p>Ali Khalid</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action audit-pending">
+											<button>pending</button>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action">
+											<button>Details</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="observation-table-title">
+											<img src="images/setting-icon.svg" alt="icon">
+											<div>
+												<h3>Enviroment Health</h3>
+												<p>this week inspection</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-date">
+											<p>DEC 10, 2022</p>
+											<span>At 08.00 PM</span>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-insBy">
+											<p>-------</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action audit-done">
+											<button style="background-color: #ff6a6a;border: 0;">Expired</button>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action">
+											<button>Details</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="observation-table-title">
+											<img src="images/icon14.svg" alt="icon">
+											<div>
+												<h3>Electric Inspection</h3>
+												<p>this week inspection</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-date">
+											<p>DEC 10, 2022</p>
+											<span>At 08.00 PM</span>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-insBy">
+											<p>Mostafa Ebrahim</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action audit-done">
+											<button>Pending</button>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action">
+											<button>Done</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="observation-table-title">
+											<img src="images/setting-icon.svg" alt="icon">
+											<div>
+												<h3>Enviroment Health</h3>
+												<p>this week inspection</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-date">
+											<p>DEC 10, 2022</p>
+											<span>At 08.00 PM</span>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-insBy">
+											<p>Mostafa Ebrahim</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action audit-done">
+											<button>Done</button>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action">
+											<button>Details</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="observation-table-title">
+											<img src="images/icon15.svg" alt="icon">
+											<div>
+												<h3>Health Inspection </h3>
+												<p>this week inspection</p>
+											</div>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-date">
+											<p>DEC 10, 2022</p>
+											<span>At 08.00 PM</span>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-insBy">
+											<p>Ali Khalid</p>	
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action audit-done">
+											<button>Done</button>
+										</div>
+									</td>
+									<td>
+										<div class="observation-table-action">
+											<button>Details</button>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+            </div>
+		</main>	
+		<!-- Main_Deshboard-area end -->
+
+		<!-- offcanvas-area start -->
+		<div class="offcanvas offcanvas-start deshboard-offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header">
+				<a href="#"><img src="images/logo.svg" alt=""></a>
+			  	<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<ul class="deshboard-side-menu-item">
+					<li><a href="#"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+					<li><a href="#"><i class="fa-regular fa-credit-card"></i>Inspections</a></li>
+					<li><a class="active-ds-menu" href="#"><i class="fa-regular fa-credit-card"></i>Observations</a></li>
+					<li><a href="#"><i class="fa-regular fa-credit-card"></i>Inaccidents</a></li>	
+				</ul>
+				<div class="deshboard-side-menu-bottom">
+					<a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+				</div>
+			</div>
+		</div>
+		<!-- offcanvas-area end -->
+		
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- Main jQuery -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+
+		<!-- nice select -->
+		<script src="js/jquery.nice-select.js"></script>
+		
+		<!-- Bootstrap.bundle Script -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- chart Script -->
+		<script src="js/chart.js"></script>
+		<script src="js/custom-chart-script.js"></script>
+		
+		<!-- Custom jQuery -->
+		<script src="js/scripts.js"></script>
+
+
+	</body>
+</html>

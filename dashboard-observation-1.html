@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Meta setup -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="">
+		<meta name="decription" content="">
+		<meta name="designer" content="">
+		
+		<!-- Title -->
+		<title>Observations</title>
+		
+		<!-- Fav Icon -->
+		<link rel="icon" href="images/favicon.ico" />	
+
+		<!-- font awesome icon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+		<!-- nice select -->
+		<link rel="stylesheet" href="css/nice-select.css">
+
+		<!-- Include Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		
+		<!-- Main StyleSheet -->
+		<link rel="stylesheet" href="style.css" />	
+		
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="css/responsive.css" />	
+		
+	</head>
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+		<!-- Main_Deshboard-area start -->	
+		<main class="deshboard-main-area">
+            <!-- deshboard side menu here -->
+            <div class="deshboard-side-menu">
+				<div class="deshboard-side-menu-top">
+					<div class="deshboard-side-menu-logo">
+						<a href="#">
+							<img src="images/logo.svg" alt="logo">
+						</a>
+					</div>
+					<ul class="deshboard-side-menu-item">
+						<li><a class="active-ds-menu" href="#"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+						<li><a href="#"><i class="fa-regular fa-credit-card"></i>Inspections</a></li>
+						<li><a href="#"><i class="fa-regular fa-credit-card"></i>Observations</a></li>
+						<li><a href="#"><i class="fa-regular fa-credit-card"></i>Inaccidents</a></li>	
+					</ul>
+				</div>
+				<div class="deshboard-side-menu-bottom">
+					<a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+				</div>
+            </div>
+            <!-- deshboard-main-right-side here -->
+            <div class="deshboard-main-right-side">  
+				<!-- right side header  -->
+				<div class="deshboard-main-right-side-header">
+					<i class="fa-solid fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+					<select class="deshboard-select">
+						<option value="1">All Project Report</option>
+						<option value="2">First Refinery Project </option>
+						<option value="3">First Refinery Project</option>
+					</select>
+				</div>
+				<!-- right side body -->
+				<div class="deshboard-main-right-side-body mr60px">
+					<!--main chart content 2 here -->
+					<div class="deshboard-line-chart-content mt86px">
+						<div class="line-chart-header">
+							<h2>Inspections</h2>
+							<div class="expenses-txt">
+								<p>Expenses</p>
+								<select class="deshboard-select2">
+									<option value="1">Dec 10 - May 16</option>
+									<option value="2">Dec 17 - May 26</option>
+									<option value="3">Dec 26 - May 30</option>
+								</select>
+							</div>
+						</div>
+						<!-- line chart here -->
+						<div class="line-chart">
+							<canvas id="myChart" style="width:100%;"></canvas>
+						</div>
+					</div>
+					<!-- Observation Report here -->
+					<div class="observation-report-area mt30px">
+						<div>
+							<button><i class="fa-solid fa-plus"></i></button>
+							<span>Observation Report</span>
+						</div>
+						<button>View All Observation</button>
+					</div>
+				</div>
+            </div>
+		</main>	
+		<!-- Main_Deshboard-area end -->
+
+		<!-- offcanvas-area start -->
+		<div class="offcanvas offcanvas-start deshboard-offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header">
+				<a href="#"><img src="images/logo.svg" alt="logo"></a>
+			  	<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<ul class="deshboard-side-menu-item">
+					<li><a class="active-ds-menu" href="#"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+					<li><a href="#"><i class="fa-regular fa-credit-card"></i>Inspections</a></li>
+					<li><a href="#"><i class="fa-regular fa-credit-card"></i>Observations</a></li>
+					<li><a href="#"><i class="fa-regular fa-credit-card"></i>Inaccidents</a></li>	
+				</ul>
+				<div class="deshboard-side-menu-bottom">
+					<a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+				</div>
+			</div>
+		</div>
+		<!-- offcanvas-area end -->
+		
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- Main jQuery -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+
+		<!-- nice select -->
+		<script src="js/jquery.nice-select.js"></script>
+		
+		<!-- Bootstrap.bundle Script -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- chart Script -->
+		<script src="js/chart.js"></script>
+		<script src="js/custom-chart-script.js"></script>
+		
+		<!-- Custom jQuery -->
+		<script src="js/scripts.js"></script>
+
+
+	</body>
+</html>
